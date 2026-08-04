@@ -45,15 +45,15 @@ const programs = [
 export default function ProgramsPage() {
   return (
     <>
-      <section className="bg-ink px-4 py-16 text-white sm:px-6 sm:py-20 lg:px-8">
+      <section className="border-b border-black/5 bg-white px-4 py-16 text-ink sm:px-6 sm:py-20 lg:px-8">
         <div className="mx-auto max-w-6xl">
-          <p className="text-xs tracking-[0.18em] text-gold uppercase">
+          <p className="text-xs tracking-[0.18em] text-gold-deep uppercase">
             Programs & Services
           </p>
           <h1 className="section-title mt-3 max-w-3xl text-4xl sm:text-5xl">
             Training Built for Horsham and Beyond
           </h1>
-          <p className="mt-5 max-w-3xl text-base text-white/80 sm:text-lg">
+          <p className="mt-5 max-w-3xl text-base text-ink/70 sm:text-lg">
             Horsham Athletic Club is a full-service fitness center at 400
             Horsham Road in Horsham, PA. Members come from Horsham, Hatboro,
             North Wales, Warrington, Hatfield, Doylestown, and communities
@@ -116,18 +116,18 @@ export default function ProgramsPage() {
             ))}
           </div>
 
-          <div className="mt-14 rounded-xl bg-charcoal px-7 py-10 text-white sm:px-10">
+          <div className="mt-14 rounded-xl border border-black/8 bg-surface px-7 py-10 text-ink sm:px-10">
             <h2 className="section-title text-2xl sm:text-3xl">
               Find the Right Program
             </h2>
-            <p className="mt-4 max-w-2xl text-white/80">
+            <p className="mt-4 max-w-2xl text-ink/70">
               Not sure whether to start with membership, classes, personal
               training, or Parisi Speed School? Reach out and we will help you
               choose based on your goals, schedule, and experience level.
             </p>
             <Link
               href="/contact"
-              className="mt-6 inline-flex items-center justify-center bg-gold px-7 py-3.5 text-sm font-semibold tracking-[0.14em] text-ink uppercase transition-colors hover:bg-gold-soft"
+              className="mt-6 inline-flex items-center justify-center bg-ink px-7 py-3.5 text-sm font-semibold tracking-[0.14em] text-white uppercase transition-colors hover:bg-gold hover:text-ink"
             >
               Contact HAC
             </Link>
