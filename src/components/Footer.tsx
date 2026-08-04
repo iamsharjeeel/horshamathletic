@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -5,9 +6,13 @@ export default function Footer() {
     <footer className="mt-auto border-t border-white/10 bg-ink text-white">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.4fr_1fr_1fr] lg:px-8">
         <div>
-          <p className="font-display text-xl tracking-[0.12em] uppercase">
-            Horsham Athletic Club
-          </p>
+          <Image
+            src="/hac-logo.png"
+            alt="Horsham Athletic Club"
+            width={250}
+            height={94}
+            className="h-14 w-auto"
+          />
           <p className="mt-3 max-w-md text-sm leading-relaxed text-white/70">
             A full-service fitness center in Horsham, PA — gym memberships,
             group fitness, personal training, and sports performance for

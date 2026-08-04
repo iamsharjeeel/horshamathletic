@@ -2,6 +2,7 @@
 
 ## What changed
 
+- Replaced header/footer text brand with HAC logo image (`public/hac-logo.png`).
 - Built full Next.js App Router site for Horsham Athletic Club A2P / 10DLC verification.
 - Six routes: `/`, `/programs`, `/contact`, `/privacy`, `/terms`, `/sms-terms`.
 - Shared header + footer (legal links on every page).
@@ -16,7 +17,7 @@ Carrier reviewers need a live, legitimate business site with clear SMS consent c
 
 - `src/app/*` — layout, home, programs, contact, privacy, terms, sms-terms, globals
 - `src/components/Header.tsx`, `Footer.tsx`, `ContactForm.tsx`
-- `public/hero.jpg`
+- `public/hac-logo.png`, `public/hero.jpg`
 - `README.md`, `HANDOVER.md`, `CHANGELOG.md`
 - Next.js scaffold (`package.json`, configs, etc.)
 
