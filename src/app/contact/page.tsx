@@ -10,15 +10,15 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <section className="bg-ink px-4 py-16 text-white sm:px-6 sm:py-20 lg:px-8">
+      <section className="border-b border-black/5 bg-white px-4 py-16 text-ink sm:px-6 sm:py-20 lg:px-8">
         <div className="mx-auto max-w-6xl">
-          <p className="text-xs tracking-[0.18em] text-gold uppercase">
+          <p className="text-xs tracking-[0.18em] text-gold-deep uppercase">
             Contact
           </p>
           <h1 className="section-title mt-3 max-w-3xl text-4xl sm:text-5xl">
             Start Your Free Trial or Ask a Question
           </h1>
-          <p className="mt-5 max-w-2xl text-base text-white/80 sm:text-lg">
+          <p className="mt-5 max-w-2xl text-base text-ink/70 sm:text-lg">
             Reach Horsham Athletic Club about memberships, group fitness,
             personal training, or Parisi Speed School. We serve Horsham and
             surrounding communities across Montgomery County and Bucks County.
