@@ -45,7 +45,7 @@ const programs = [
 export default function ProgramsPage() {
   return (
     <>
-      <section className="border-b border-black/5 bg-white px-4 py-16 text-ink sm:px-6 sm:py-20 lg:px-8">
+      <section className="border-b border-black/5 bg-cream px-4 py-16 text-ink sm:px-6 sm:py-20 lg:px-8">
         <div className="mx-auto max-w-6xl">
           <p className="text-xs tracking-[0.18em] text-gold-deep uppercase">
             Programs & Services

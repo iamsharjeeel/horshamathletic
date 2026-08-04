@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="mt-auto border-t border-black/8 bg-white text-ink">
+    <footer className="mt-auto border-t border-black/8 bg-cream text-ink">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.4fr_1fr_1fr] lg:px-8">
         <div>
           <Image
@@ -68,7 +68,7 @@ export default function Footer() {
           </nav>
         </div>
       </div>
-      <div className="border-t border-black/8 bg-cream">
+      <div className="border-t border-black/8">
         <p className="mx-auto max-w-6xl px-4 py-5 text-xs text-ink/45 sm:px-6 lg:px-8">
           © {new Date().getFullYear()} Newtown Racquetball INC DBA Horsham
           Athletic Club. All rights reserved.

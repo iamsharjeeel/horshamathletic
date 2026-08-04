@@ -16,7 +16,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-black/8 bg-white/95 text-ink shadow-[0_1px_0_rgba(0,0,0,0.04)] backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-black/8 bg-cream/95 text-ink shadow-[0_1px_0_rgba(0,0,0,0.04)] backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <Link
           href="/"
@@ -69,7 +69,7 @@ export default function Header() {
       {open ? (
         <nav
           id="mobile-nav"
-          className="border-t border-black/8 bg-white px-4 py-4 md:hidden"
+          className="border-t border-black/8 bg-cream px-4 py-4 md:hidden"
           aria-label="Mobile"
         >
           <ul className="flex flex-col gap-3">
